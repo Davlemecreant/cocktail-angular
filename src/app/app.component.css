@@ -1,0 +1,38 @@
+.navbar {
+  background-color: #00000090;
+  position: sticky;
+  top: 0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0px 0px 5px #fafafa50, 0px 0px 10px #fafafa50;
+}
+
+.navbar-brand:hover {
+  color: #ccc;
+  text-shadow: 0px 0px 5px #fafafa50, 0px 0px 10px #fafafa50;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ccc;
+  font-size: 1rem;
+}
+
+footer a  {
+  color:rgb(118, 121, 128);
+}
+
+footer a:hover {
+  color:#fff;
+}
+
+
+
+

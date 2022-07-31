@@ -1,0 +1,21 @@
+.contact {
+  background: url(../../assets/img/bgcontact.jpg);
+  padding: 200px 100px;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.login {
+  background-color: rgba(255, 255, 255, 0.11);
+  padding: 20px 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    padding: 140px 30px;
+  }
+}

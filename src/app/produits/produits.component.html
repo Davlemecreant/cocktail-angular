@@ -1,0 +1,15 @@
+<section class="prod">
+  <div class="container">
+    <h1 class="text-center mb-5">Tous Les Produits</h1>
+    <div class="row mt-2">
+      <div class="col-lg-3 mb-5" *ngFor="let cd of row">
+        <div class="box shadow-sm">
+          <img src="{{ cd.image }}" alt="image" width="100%" />
+          <h3 class="mt-2">{{ cd.name }}</h3>
+          <p>{{ cd.description }}</p>
+          <button class="btn btn-light mt-5">Recette</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

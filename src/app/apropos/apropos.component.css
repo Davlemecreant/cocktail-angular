@@ -1,0 +1,18 @@
+.follow a {
+  padding: 20px;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.follow a:hover {
+    color: rgb(78, 128, 255);
+    }
+
+    
+
+@media screen and (max-width: 600px) {
+  .follow a {
+    padding: 2px;
+  }
+}

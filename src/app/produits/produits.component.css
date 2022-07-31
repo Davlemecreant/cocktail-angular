@@ -1,0 +1,35 @@
+.prod {
+  background: url(../../assets/img/bgprod.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  padding: 20px 40px;
+  min-height: 100vh;
+}
+
+h1 {
+  color: #fff;
+  text-shadow: 0px 0px 5px #00000045, 0px 0px 10px #00000045;
+}
+
+h3 {
+  color: #fff;
+}
+
+p {
+  text-align: justify;
+  color: #fff;
+}
+
+.box {
+  background-color: #00000090;
+  padding: 10px 10px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 600px) {
+  .prod {
+    padding: 20px 10px;
+  }
+}
